@@ -42,7 +42,7 @@ class UI {
 		div.className = `alert alert-${className}`;
 		div.appendChild(document.createTextNode(message));
 		const container = document.querySelector('.container');
-		const form = document.querySelector('book-#form');
+		const form = document.querySelector('#book-form');
 		container.insertBefore(div, form);
 
 		// Make alerts vanish in 3 seconds
